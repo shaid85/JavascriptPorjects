@@ -1,0 +1,2 @@
+# JavascriptPorjects
+Some Javascript practices 
