@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="flex">
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <nav class="text-center">
+            <ul>
+                <li>
+                    <a href="#one">Project 1</a>
+                </li>
+                <li>
+                    <a href="#two">Project 2</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div style="padding:20px" id="targetBox">
+        <h1 class="mt-md text-center colorchn" style="padding: 30px;
+            background:linear-gradient(90deg, 
+                rgba(205,245,60,1) 0%, 
+                rgba(250,57,22,1) 35%, 
+                rgba(227,10,99,1) 100%);">Coler Change</h1>
+    </div>
+    <main class="flex justify-content-center text-center mt-lg">
+        <button type="button" id="start" >Start</button>
+        <button type="button" id="stop" >Stop</button>
+    </main>
+
+    <script src="custom.js"></script>
+</body>
+</html>
